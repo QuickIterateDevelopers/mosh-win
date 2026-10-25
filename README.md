@@ -17,6 +17,19 @@ stock `mosh-server` on Linux/macOS/BSD:
 >
 > This is an unofficial client and is not affiliated with the mosh project.
 
+## Download
+
+[mosh-win-0.1.0-x86_64-windows.zip](docs/mosh-win-0.1.0-x86_64-windows.zip) (Windows 10/11, x64;
+a single `mosh-win.exe`, no installer). SHA-256 checksums are in
+[docs/SHA256SUMS.txt](docs/SHA256SUMS.txt):
+
+```
+ebc2bdc327f1e50e5b5a7c5c2d14173f243e9dab27354516e56a6e33667612d0  mosh-win-0.1.0-x86_64-windows.zip
+5ada4c8c7e3041092d55f13eb5a0ce0f0ee262221eb736c80713fe502b6b683e  mosh-win.exe
+```
+
+Verify with `Get-FileHash .\mosh-win-0.1.0-x86_64-windows.zip`.
+
 ## Usage
 
 ```
